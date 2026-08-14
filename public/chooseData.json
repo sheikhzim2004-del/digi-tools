@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "step": "01",
+    "title": "Create Account",
+    "description": "Sign up for free in seconds. No credit card required to get started.",
+    "image": "https://i.ibb.co/LdCRhY2P/user.png"
+  },
+  {
+    "id": 2,
+    "step": "02",
+    "title": "Choose Products",
+    "description": "Browse our catalog and select the tools that fit your needs.",
+    "image": "https://i.ibb.co/Tq45JKKw/package.png"
+  },
+  {
+    "id": 3,
+    "step": "03",
+    "title": "Start Using",
+    "description": "Access your tools instantly and boost your productivity right away.",
+    "image": "https://i.ibb.co/qMgJJyDM/rocket.png"
+  }
+]
