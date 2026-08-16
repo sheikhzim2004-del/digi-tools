@@ -4,6 +4,7 @@ import Banner from "../components/banner/Banner";
 import Navbar from "../components/navbar/Navbar";
 import Rating from "../components/ratingSection/Rating";
 import { ToastContainer } from "react-toastify";
+import Choose from "../components/chooseSection/Choose";
 
 const productDataFetch = fetch("/productData.json").then((res) => res.json());
 
@@ -30,6 +31,8 @@ const [addToCart,setAddToCart]=useState([])
       >
         <ALLTools productDataFetch={productDataFetch} addToCart={addToCart} setAddToCart={setAddToCart}/>
       </Suspense>
+
+      <Choose />
 
       <ToastContainer/>
     </div>

@@ -1,4 +1,3 @@
-import "./Rating.css";
 
 const Rating = () => {
   return (
