@@ -5,6 +5,7 @@ import Navbar from "../components/navbar/Navbar";
 import Rating from "../components/ratingSection/Rating";
 import { ToastContainer } from "react-toastify";
 import Choose from "../components/chooseSection/Choose";
+import Pricing from "../components/pricingSection/Pricing";
 
 const productDataFetch = fetch("/productData.json").then((res) => res.json());
 
@@ -33,6 +34,8 @@ const [addToCart,setAddToCart]=useState([])
       </Suspense>
 
       <Choose />
+
+      <Pricing></Pricing>
 
       <ToastContainer/>
     </div>
