@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import Choose from "../components/chooseSection/Choose";
 import Pricing from "../components/pricingSection/Pricing";
 import CTASection from "../components/ctaSection/CTASection";
+import Footer from "../components/footer/Footer";
 
 const productDataFetch = fetch("/productData.json").then((res) => res.json());
 
@@ -39,6 +40,8 @@ const [addToCart,setAddToCart]=useState([])
       <Pricing></Pricing>
 
       <CTASection></CTASection>
+
+      <Footer></Footer>
 
       <ToastContainer/>
     </div>
