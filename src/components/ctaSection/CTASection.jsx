@@ -1,8 +1,7 @@
-import { Play } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <section className="my-container bg-[#321ae9]">
+    <section className="my-container">
       <div className="py-[clamp(3rem,6vw,7.5rem)] space-y-7">
         {/* heading content  */}
         <h2 className="text-[clamp(2.75rem,5vw,2.75rem)] font-bold mb-2 text-center text-white">

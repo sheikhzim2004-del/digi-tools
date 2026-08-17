@@ -13,11 +13,11 @@ const productDataFetch = fetch("/productData.json").then((res) => res.json());
 
 const Home = () => {
 
-const [addToCart,setAddToCart]=useState([])
+  const [addToCart, setAddToCart] = useState([])
 
   return (
     <div>
-      <Navbar addToCart={addToCart}/>
+      <Navbar addToCart={addToCart} />
 
       <Banner />
 
@@ -32,18 +32,22 @@ const [addToCart,setAddToCart]=useState([])
           </div>
         }
       >
-        <ALLTools productDataFetch={productDataFetch} addToCart={addToCart} setAddToCart={setAddToCart}/>
+        <ALLTools productDataFetch={productDataFetch} addToCart={addToCart} setAddToCart={setAddToCart} />
       </Suspense>
 
       <Choose />
 
       <Pricing></Pricing>
 
-      <CTASection></CTASection>
+      <div className="bg-linear-to-r from-[#4F39F6]  to-[#9B5CF6]">
+        <CTASection></CTASection>
+      </div>
 
-      <Footer></Footer>
+      <div className="bg-[#101727]">
+        <Footer></Footer>
+      </div>
 
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   );
 };
