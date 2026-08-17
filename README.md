@@ -1,16 +1,30 @@
-# React + Vite
+# Digi Tools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive product showcase website built with React and Tailwind CSS. Users can explore different digital products, add products to the cart, manage cart items, and proceed to checkout with a smooth user experience.
 
-Currently, two official plugins are available:
+## 🚀 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Live Link Here](https://digi-tools-nine.vercel.app/)
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[GitHub Repository Link Here](https://github.com/sheikhzim2004-del/digi-tools)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)
+- React Toastify
+- JSON Data
+
+## ✨ Features
+
+- Responsive product showcase with modern UI design
+- Add, remove, and manage products in the shopping cart
+- Dynamic cart count and checkout functionality with toast notifications
+
+## 📌 Project Overview
+
+Digi Tools is a digital product marketplace where users can browse available tools, view product details, and add their favorite products to the cart. The project focuses on responsive design, clean component structure, and interactive user experience.
